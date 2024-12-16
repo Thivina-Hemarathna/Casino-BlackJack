@@ -168,7 +168,7 @@ int main(){
                     cout<<"Dealer wins"<<endl;
                     cout<<"Player balance is: "<<buy<<endl;
                 }
-                else{
+                else if (playertotal > dealertotal){
                     cout<<"PLayer wins"<<endl;
                     buy = buy + (2*bet);
                     cout<<"Player balance is "<<buy<<endl;
